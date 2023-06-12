@@ -1,0 +1,900 @@
+body{
+    /* background-color: #14213d; */
+    background-color: #001219;
+    height: 1200px;
+}
+button{
+    cursor: pointer;
+}
+
+/* Leve-1 starts here */
+#level_1{
+    /* background-color: aliceblue; */
+    display: flex;
+    width:100%;
+    height: 70px;
+    margin-top: 10px;
+ /* border: 2px solid red; */
+    
+}
+#Only_logo{
+margin-top: 10px;
+margin-left: 20px;
+}
+#N_logo{
+    height: 40px;
+    padding-left: 10px;
+}
+#Eng_sign{
+    display: flex;
+    margin-top: 10px;
+    /* border: 1px solid yellow; */
+    margin-left:800px ;
+    width: 250px;
+    
+}
+
+#Lang_but{
+    background-color:#14213d;
+    color: white;
+    height: 35px;
+    width: 134px;
+    padding-left: 30px;
+    /* border: 0.5px solid white; */
+    border-radius: 4px;
+}
+#Sign_btn{
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 73px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    border-radius: 4px;
+}
+
+/* Leve-2 starts here */
+#level_2{
+    height: 650px;;
+    width:100%;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+#lev2_backimg2{
+    height: 600px;
+    width: 1171px;
+    background-image:
+    radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(150, 1, 7, 0.4) 1.42%, 
+                rgba(30, 1, 66, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%),
+    linear-gradient(98.24deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 100%), 
+    url('/NETFLIX_CLONE/Netflix_img/new_netflix_homepage.jpg');
+    margin-left:37px;
+    border-radius: 10px;
+}
+#lev2_h_emai_but{
+    color: white;
+    padding:5.875rem;
+    width: 700px;
+    /* border: 2px solid white; */
+    padding-top: 100px;
+    margin-left: 7px;
+}
+#lev2_h1{
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    
+}
+#lev2_p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    /* border: 1px solid white; */
+    margin :0;
+    padding: 0;
+}
+#lev2_h3{
+    text-align: start;
+    letter-spacing: 0.9px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev2_emai{
+    display: inline;
+    color: transparent;
+    
+}
+#emai{
+    color: transparent;
+    padding-top: 15px;
+    padding-left: 13px;
+    height: 38px;
+    width: 363px;
+    border: 1px solid white;
+    background-color:rgb(13, 27, 42,0.3);
+    border-radius: 4px;
+    font-size: 17px;
+    /* box-sizing: border-box; */
+}
+#lev2_but{
+    display: inline;
+    width: 196px;
+    height: 57px;
+    margin-left: 5px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 25px;
+    color: white;
+}
+
+/* Leve-3 starts here */
+#lev3{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 380px;
+    width: 100%;
+}
+#lev3_bor{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1150px;
+}
+
+#lev3_text{
+    /* border: 1px solid white; */
+    color: white;
+    width: 475px;
+    margin-left: 60px;
+    padding-top: 60px;
+}
+#lev3_h{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev3_p1{
+    font-size: 3rem;
+    font-weight: 850;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev3_p2{
+    font-size: 1.28rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev3_img{
+    /* border: 1px solid white; */
+    padding-left: 5px;
+    width: 500px;
+}
+#img3{
+    width: 480px;
+    height: 380px;
+}
+
+/* Leve-4 starts here */
+#lev4{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 370px;
+    width: 100%;
+}
+#lev4_bor{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 380px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1150px;
+}
+
+#lev4_text{
+    /* border: 1px solid white; */
+    color: white;
+    width: 480px;
+    margin-left: 25px;
+    padding-top: 60px;
+}
+#lev4_h{
+    font-size:3rem;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev4_p1{
+    font-size: 3rem;
+    font-weight: 850;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev4_p2{
+    font-size: 1.28rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev4_img{
+    /* border: 1px solid white; */
+    width: 520px;
+}
+#img4{
+    width: 483px;
+    height: 370px;
+    padding-left: 60px;
+}
+
+
+/* Leve-5 starts here */
+#lev5{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+#lev5_bor{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 380px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1150px;
+}
+#lev5_text{
+    /* border: 1px solid white; */
+    color: white;
+    width: 505px;
+    margin-left: 55px;
+    padding-top: 30px;
+}
+#lev5_h{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev5_h_p1{
+    font-size: 3rem;
+    font-weight: 845;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev5_p2{
+    font-size: 1.3rem;
+    font-weight: 650;
+    /* letter-spacing: 0.4px; */
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev5_img{
+    /* border: 1px solid white; */
+    width: 500px;
+}
+#img5{
+    width: 460px;
+    height: 370px;
+    margin-right: 50px;
+    /* border: 1px solid yellow; */
+}
+
+
+/* Leve-6 starts here */
+#lev6{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 450px;
+    width: 100%;
+}
+#lev6_bor{
+    display: flex;
+    /* border: 2px solid white; */
+    height: 380px;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1150px;
+}
+
+#lev6_text{
+    /* border: 1px solid white; */
+    color: white;
+    width: 480px;
+    margin-left: 25px;
+    padding-top: 0px;
+    height:400px;
+}
+#lev6_h{
+    font-size:3rem;
+    font-weight: 800;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev6_p1{
+    font-size: 3rem;
+    font-weight: 850;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev6_p2{
+    font-size: 1.28rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#lev6_img{
+    /* border: 1px solid white; */
+    width: 520px;
+}
+#img6{
+    width: 483px;
+    height: 440px;
+    padding-left: 60px;
+}
+
+/* Leve-7 starts here */
+#lev7{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    color: white;
+}
+#lev7_bor{
+    /* border: 2px solid white; */
+    margin-top: 70px;
+    margin-left: 83px;
+    width: 1100px;
+}
+#lev7_FAQ{
+    /* border: 1px solid white; */
+    width: 1000px;
+    /* padding-top: 30px; */
+    /* position: relative; */
+    margin-left: 40px;
+}
+#lev7_h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+#lev7_ul{
+    list-style-type: none;
+}
+
+/* *********************************************list-1 starts here ******************************************* */
+
+#lev7_li1{
+    /* border: 1px solid yellow; */
+    width:1006px ;
+    background-color: rgb(19, 33, 68);
+}
+#lev7_b1{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color: rgb(19, 33, 68);
+    color: white;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_span1{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+#lev7_li1_svg1{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 747px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans1{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 250px;
+    display: none;
+}
+#lev7_ans1{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:30px ;
+    /* letter-spacing: 0px; */
+}
+
+/* *********************************************list-2 starts here ******************************************* */
+
+#lev7_li2{
+    width:1006px;
+    background-color: rgb(19, 33, 68);
+}
+#lev7_b2{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color: rgb(19, 33, 68);
+    color: white;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span2{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li2_svg2{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 598px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans2{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 130px;
+    display: none;
+}
+#lev7_ans2{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+
+/* *********************************************list-3 starts here ******************************************* */
+
+#lev7_li3{
+    /* border: 1px solid yellow; */
+    width:1006px;
+    background-color: rgb(19, 33, 68);
+}
+#lev7_b3{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color: rgb(19, 33, 68);
+    color: white;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span3{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li3_svg3{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 704.5px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans3{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 300px;
+    display: none;
+}
+#lev7_ans3{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+
+/* *********************************************list-4 starts here ******************************************* */
+
+#lev7_li4{
+    /* border: 1px solid yellow; */
+    width:1006px;
+    background-color: rgb(19, 33, 68);
+}
+#lev7_b4{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color: rgb(19, 33, 68);
+    color: white;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span4{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li4_svg4{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 731px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans4{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 120px;
+    display: none;
+}
+#lev7_ans4{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+/* *********************************************list-5 starts here ******************************************* */
+
+#lev7_li5{
+    /* border: 1px solid yellow; */
+    width:1006px;
+    background-color: rgb(19, 33, 68);
+}
+#lev7_b5{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color: rgb(19, 33, 68);
+    color: white;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span5{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li5_svg5{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 598px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans5{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 130px;
+    display: none;
+}
+#lev7_ans5{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+
+/* *********************************************list-6 starts here ******************************************* */
+
+#lev7_li6{
+    /* border: 1px solid yellow; */
+    width:1006px;
+    background-color: rgb(19, 33, 68);
+}
+#lev7_b6{
+    width:1006px;
+    height: 85px;
+    margin-right: 10px;
+    display: flex;
+    background-color: rgb(19, 33, 68);
+    color: white;
+    /* border: 1px solid rgb(19, 33, 68); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(19, 33, 68) rgb(19, 33, 68) black rgb(19, 33, 68);
+}
+#lev7_div_span6{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-top: 23px;
+    margin-left: 17px;
+}
+#lev7_li6_svg6{
+    /* border: 1px solid black; */
+    width: 45px;
+    margin-left: 658px;
+    margin-top: 15px;
+    color: white;
+    /* transform: rotate(45deg); */
+}
+#lev7_div_ans6{
+    /* border: 1px solid yellow; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    height: 230px;
+    display: none;
+}
+#lev7_ans6{
+    font-size: 25px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-right:20px ;
+    /* letter-spacing: 0px; */
+}
+
+/* *********************************************list-7 starts here ******************************************* */
+
+
+
+#lev7_h3_h7{
+    font-size: 20px;
+    font-weight: 450;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    letter-spacing: 0.4px;
+}
+#lev7_div_inp7_btn7{
+    display: flex;
+    height: 100px;
+    color: white;
+    
+}
+#lev7_inp_div7{
+    height: 58px;
+    width:379px ;
+    /* border: 2px solid white; */
+    /* border-radius: 5px; */
+}
+#inp_li7{
+    width: 375px;
+    height: 53px;
+    font-size: 17px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding-left: 10px;
+    box-sizing: border-box;
+    background-color: #161a1d;
+    border-radius: 5px;
+    border: 1px solid rgb(252, 250, 250);
+    margin-bottom: 15px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+#lev7_div_btn7{
+    margin-left: 6px;
+    height: 60px;
+}
+#btn_li7{
+    height: 60px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: red;
+    /* border: 1px solid red; */
+    border-radius: 4px;
+    color: white;
+}
+#li7_spn7{
+    font-size: 25px;
+    font-weight: 10px;
+}
+#li7_ic7{
+    font-size: 20px;
+    font-weight: 1px;
+    margin-left: 1px;
+    color: white;
+}
+
+/* ********************************************* footer starts here ******************************************* */
+#foot{
+    height: 400px;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    width: 100%;
+    color: whitesmoke;
+}
+#foo_bor{
+    margin-top: 30px;
+    /* border: 2px solid white; */
+    width: 1000px;
+    margin-left: 90px;
+    height: 400px;
+
+}
+#foot_qn{
+    color:rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 37px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    letter-spacing: 0.7px;
+}
+#foot_ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+#foot_ul :link{
+    color:rgba(255, 255, 255, 0.7);
+}
+#foot_ul :active{
+    color: red;
+}
+#foot_ul :visited{
+    color:rgba(255, 255, 255, 0.7);
+}
+#li_all_div{
+    display: inline-flex;
+    width: 500px;
+    height: 200px;
+}
+
+/* ********************************************************************************************************** */
+
+#li_1_to_4{
+    margin-top: 20px;
+    /* border: 1px solid white; */
+    width: 220px;
+    
+}
+#foot_li_1{
+    
+}
+#foot_li_2 {
+    padding-top: 15px;
+    width: 170px;
+    /* border: 1px solid white; */
+}
+#foot_li_3{
+    padding-top: 15px;
+    /* border: 1px solid white; */
+}
+#foot_li_4{
+    padding-top: 15px;
+}
+
+/* *********************************************************************************************************** */
+
+#li_5_to_8{
+    margin-left: 75px;
+    margin-top: 6px;
+    /* border: 1px solid white; */
+    width: 170px;
+
+}
+#foot_li_5{
+    padding-top: 15px;
+}
+#foot_li_6{
+    padding-top: 15px;
+}
+#foot_li_7{
+    padding-top: 15px;
+    width: 170px;
+}
+#foot_li_8{
+    padding-top: 15px;
+}
+
+/* ********************************************************************************************************** */
+
+#li_9_to_12{
+    /* border: 1px solid white; */
+    margin-left: 71px;
+    width: 230px;
+}
+
+#foot_li_9{
+    padding-top: 15px;
+}
+#foot_li_10{
+    padding-top: 15px;
+}
+#foot_li_11{
+    padding-top: 15px;
+    width: 200px;
+}
+#foot_li_12{
+    padding-top: 15px;
+}
+
+/* ********************************************************************************************************** */
+#li_12_to_15{
+    margin-left: 43px;
+    /* border: 1px solid white; */
+}
+
+#foot_li_13{
+    padding-top: 15px;
+    width: 200px;
+}
+#foot_li_14{
+    padding-top: 15px;
+}
+#foot_li_15{
+    padding-top: 20px;
+}
+
+/* ******************************************************************************************************** */
+#foot_div_sect{
+
+}
+#foo_Lang_but{
+    background-color:#14213d;
+    color: white;
+    height: 35px;
+    width: 134px;
+    /* padding-left: 30px; */
+    /* border: 0.5px solid white; */
+    border-radius: 4px;
+    margin-left: 45px;
+}
+#myidentification_div{
+    height: 200px;
+    width: 100%;
+    background-color: #ffc8dd;
+    margin-top: 10px;
+}
+#heading_icons{
+    height: 100px;
+    width: 900px;
+    padding-top: 30px;
+    margin-left: 220px;
+}
+#foot_h1{
+    font-style: oblique;
+    font-weight: 500px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#foot_h3{
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 650px;
+}
+#linkedin{
+    padding-left: 350px;
+}
+#btn{
+    border: 1px solid black;
+}
